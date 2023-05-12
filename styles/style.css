@@ -65,9 +65,13 @@
   justify-content: center;
   gap: 10px;
   align-items: center;
+  font-family: "inter";
 }
 .terms a {
   color: #ed2980;
+}
+.terms p {
+  font-family: "inter";
 }
 .my-acc {
   width: 100%;
