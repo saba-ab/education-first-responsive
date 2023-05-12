@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.authorization {
+  display: flex;
+  justify-content: flex-end;
+}
+.left-content {
+  width: 60%;
+  height: 100svh;
+  position: absolute;
+  left: 0;
+}
+.left-content img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.right-content {
+  width: 50%;
+  height: 100svh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 22px 0 0 22px;
+  z-index: 1;
+  background: #ffffff;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.input {
+  padding: 0 70px;
+}
+.input input {
+  width: 100%;
+  padding: 10px 40px;
+  border-top: none;
+  border-right: none;
+  margin: 10px 0 20px 0;
+}
+.soc-icons {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 170px;
+}
+.icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.terms {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+.terms a {
+  color: #ed2980;
+}
+.my-acc {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.input label {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #003d61;
+  padding-bottom: 10px;
+}
+@media (max-width: 1024px) {
+  .soc-icons {
+    padding: 20px 100px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .left-content {
+    position: absolute;
+    width: 100%;
+    height: 375px;
+  }
+  .right-content {
+    width: 100%;
+    padding: 0 100px;
+    margin-top: 350px;
+    border-radius: 22px 22px 0 0;
+  }
+  .authorization {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+}
+@media (max-width: 390px) {
+  .soc-icons {
+    padding: 0 40px;
+  }
+  .input {
+    padding: 0 10px;
+  }
+  .right-content {
+    padding: 0 10px;
+  }
+}
